@@ -1,0 +1,89 @@
+
+html, body{
+	height: 100%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+}
+
+
+
+
+
+/*-------------------------
+	HEADING GROUP
+-------------------------*/
+h1, .h1{
+	font-size: 2.250em;
+}
+h2, .h2{
+	font-size: 1.875em;
+}
+h3, .h3{
+	font-size: 1.500em;
+}
+h4, .h4{
+	font-size: 1.250em;
+}
+
+
+/*-----------------------------
+	Bootstrap Overright
+-----------------------------*/
+.navbar{
+	min-height: 107px;
+	font-size: 1.250em;
+	padding:  1.875em 0;
+}
+.navbar-brand{
+	padding: 0;
+	display: block;
+}
+
+/*---------
+	Slides
+---------*/
+.slide{
+	height: 100%;	
+	background: #232323;
+}
+.about{
+	height: 100%;	
+}
+
+ .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
